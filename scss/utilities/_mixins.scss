@@ -1,0 +1,10 @@
+/* ==================================== */
+/*              Mixins                  */
+/* ==================================== */
+
+@mixin btn-hover ($btn-color)  {
+    background: $btn-color;
+    &:hover {
+        background: lighten($btn-color, 15%);
+    }
+}

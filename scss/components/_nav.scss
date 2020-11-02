@@ -23,7 +23,7 @@
   
   &-link:hover {
     color: $white;
-    background-color:$color-primary;
+    background-color:lighten($color-primary, 15%);
     }
     
   }
