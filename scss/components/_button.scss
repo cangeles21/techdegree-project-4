@@ -1,0 +1,33 @@
+/* ============================================= */
+/*              Button Styles                    */
+/* ============================================= */
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $white;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+  }
+  
+  .default {
+    @include btn-hover ($color-default);
+  }
+  
+  .error {
+    @include btn-hover ($color-error);
+  }
+  
+  .info {
+    @include btn-hover ( $color-info);
+  }
+  
+  .success {
+    @include btn-hover ($color-success);
+  }
+  
+  .warning {
+    @include btn-hover ($color-warning);
+  }

@@ -1,0 +1,31 @@
+
+/* ==================================== */
+/*              Variables               */
+/* ==================================== */
+
+/* ============Color=========== */
+
+$color-primary: #58e1c1;
+$color-text: #777;
+$white: #fff;
+$color-default: #51ddfc;
+$color-success: #63cc82;
+$color-error: #e4757a;
+$color-warning: #fd7856;
+$color-info: #927bc1;
+$color-primary-dark: darken ($color-primary, 25%);
+$color-primary-light: lighten ($color-primary, 25%);
+
+
+/* ============Fonts=========== */
+
+$font-style: 'Lato', sans-serif;
+$light-weight: 300;
+$heavy-weight: 700;
+$font-width: 100%;
+
+
+/* ============Media=========== */
+
+$break: 768px;
+$max: 1400px;
